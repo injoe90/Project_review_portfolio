@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false"  >
+
+    <!--배경색상을 담당.-->
+    <solid
+        android:color="#A5E757"/>
+
+    <!--테두리 색상을 담당.-->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+
+    <!--사이즈입니다.-->
+    <size
+        android:width="25dp"
+        android:height="25dp"/>
+</shape>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cafe_User</string>
+    <string name="title_home">Home</string>
+    <string name="title_order">Order</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_orderstate">Order State</string>
+    <string name="title_customcontrol">Seat Settings</string>
+
+    <string name="menu_kor_name">한글메뉴</string>
+    <string name="menu_eng_name">영어메뉴</string>
+    <string name="menu_detail">메뉴설명</string>
+    <string name="temp_hot">HOT</string>
+    <string name="temp_ice">ICE</string>
+    <string name="size_tall">T (355ml)</string>
+    <string name="size_grande">G (470ml)</string>
+    <string name="size_venti">V (590ml)</string>
+    <string name="menu_price">가격 : ?</string>
+    <string name="button_to_cart">장바구니에 담기</string>
+
+    <string name="button_up_count">수량 증가</string>
+    <string name="button_down_count">수량 감소</string>
+    <string name="cart_img">카트 아이템 이미지</string>
+    <string name="cart_item_count">수량 : ?</string>
+    <string name="cart_item_price">금액 : ?</string>
+    <string name="cart_bnt_delete">삭제</string>
+    <string name="cart_btn_payment">결제</string>
+    <string name="cart_total_price">총 결제금액 : ?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

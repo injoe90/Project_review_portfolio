@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="주문 및 좌석 현황"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="150dp" />
+
+                <Button
+                    android:id="@+id/seat1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#00BCD4"
+                    android:backgroundTint="#06D8F3"
+                    android:text="1번"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:iconTint="#23BFD3" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="70dp" />
+
+                <Button
+                    android:id="@+id/seat2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#00BCD4"
+                    android:backgroundTint="#06D8F3"
+                    android:text="2번"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:iconTint="#23BFD3" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="70dp" />
+
+                <Button
+                    android:id="@+id/seat3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#00BCD4"
+                    android:backgroundTint="#06D8F3"
+                    android:text="3번"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:iconTint="#23BFD3" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="150dp" />
+
+                <Button
+                    android:id="@+id/seat4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#00BCD4"
+                    android:backgroundTint="#06D8F3"
+                    android:text="4번"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:iconTint="#23BFD3" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="70dp" />
+
+                <Button
+                    android:id="@+id/seat5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#00BCD4"
+                    android:backgroundTint="#06D8F3"
+                    android:text="5번"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:iconTint="#23BFD3" />
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="70dp" />
+
+                <Button
+                    android:id="@+id/seat6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#00BCD4"
+                    android:backgroundTint="#06D8F3"
+                    android:text="6번"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:iconTint="#23BFD3" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="전체 주문 현황"
+                android:textSize="20sp"/>
+
+            <ListView
+                android:id="@+id/admin_order_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>

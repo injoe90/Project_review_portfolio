@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kitchen_navigation"
+    app:startDestination="@id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_order_check"
+        android:name="com.example.cafe_kitchen.OrderCheck.OrderCheckFragment"
+        android:label="주문 현황"
+        tools:layout="@layout/fragment_order_check">
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.cafe_kitchen.Home.HomeFragment"
+        android:label="홈 화면"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/home_to_order"
+            app:destination="@+id/navigation_order_check" />
+        <action
+            android:id="@+id/home_to_storage"
+            app:destination="@+id/navigation_storage_manage" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_storage_manage"
+        android:name="com.example.cafe_kitchen.StorageManage.StorageManageFragment"
+        android:label="재고 관리"
+        tools:layout="@layout/fragment_storage_manager">
+    </fragment>
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.cafe_admin.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/admin_seatinfo" />
+
+    <fragment
+        android:id="@+id/nav_2"
+        android:name="com.example.cafe_admin.ui.store.StorageFragment"
+        android:label="@string/title_stock"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_customcontrol"
+        android:name="com.example.cafe_admin.ui.environment.EnvironmentFragment"
+        android:label="@string/title_control"
+        tools:layout="@layout/custom_control" />
+    <fragment
+        android:id="@+id/nav_4"
+        android:name="com.example.cafe_admin.ui.cctv.Cctv"
+        android:label="@string/title_CCTV"
+        tools:layout="@layout/cctv" />
+</navigation>

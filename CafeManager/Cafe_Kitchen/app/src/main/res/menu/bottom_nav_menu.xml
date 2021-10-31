@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_order_check"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="주문 현황" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="홈 화면" />
+    <item
+        android:id="@+id/navigation_storage_manage"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="재고 관리" />
+</menu>

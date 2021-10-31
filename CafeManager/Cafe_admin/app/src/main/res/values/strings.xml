@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cafe_admin</string>
+    <string name="title_home">Home</string>
+    <string name="title_stock">재고 목록</string>
+    <string name="title_CCTV">CCTV</string>
+    <string name="title_control">환경제어</string>
+</resources>
